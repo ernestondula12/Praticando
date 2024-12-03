@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #242040;
+    color: #fff;
+    font-size: 35px;
+    align-items: center;
+}
+
+.post{
+
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    justify-content: center;
+}
